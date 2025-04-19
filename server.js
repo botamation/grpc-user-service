@@ -3,8 +3,8 @@ const protoLoader = require('@grpc/proto-loader');
 const path = require('path');
 
 // Load both protos
-const USER_PROTO_PATH = path.join(__dirname, '../protos/user.proto');
-const NOTIFICATION_PROTO_PATH = path.join(__dirname, '../protos/notification.proto');
+const USER_PROTO_PATH = path.join(__dirname, './protos/user.proto');
+const NOTIFICATION_PROTO_PATH = path.join(__dirname, './protos/notification.proto');
 
 // Mock database
 const users = [
